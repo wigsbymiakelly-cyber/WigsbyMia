@@ -131,14 +131,14 @@ body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--dark);overfl
 .wigs-row.four{grid-template-columns:1fr 1fr 1fr 1fr;max-width:1300px;}
 .wigs-row.five{grid-template-columns:repeat(5,1fr);max-width:1500px;}
 .wig-card{background:#fff;border:1px solid rgba(201,169,110,.35);overflow:hidden;display:flex;flex-direction:column;}
-.wig-gallery{position:relative;width:100%;padding-top:168%;background:#FFFBF6;overflow:hidden;}
+.wig-gallery{position:relative;width:100%;padding-top:125%;background:#FFFBF6;overflow:hidden;}
 .wig-gallery-champ{background:#FFFBF6 !important;}
 .wig-gallery-esp{background:#FFFBF6 !important;}
 .wig-gallery-ruby{background:#FFFBF6 !important;}
 .wig-gallery-rock{background:#FFFBF6 !important;}
 .wig-slide{position:absolute;inset:0;opacity:0;transition:opacity .45s ease;}
 .wig-slide.active{opacity:1;}
-.wig-slide img{width:100%;height:100%;object-fit:contain;object-position:center center;display:block;mix-blend-mode:screen;}
+.wig-slide img{width:100%;height:100%;object-fit:cover;object-position:center 15%;display:block;}
 .gallery-dots{position:absolute;bottom:14px;left:0;right:0;display:flex;justify-content:center;gap:7px;z-index:10;}
 .dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.4);cursor:pointer;border:none;padding:0;transition:background .2s,transform .2s;}
 .dot.active{background:var(--gold);transform:scale(1.3);}
@@ -363,7 +363,7 @@ body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--dark);overfl
   <!-- CHAMPAGNE: Naomi + Victoria + Heaven + Sabrina -->
   <div class="coll-group" id="collection-champagne">
     <div class="cg-header"><div class="cg-dot cgs-champ"></div><h3 class="cg-title"><em>Champagne</em> Collection</h3><div class="cg-line"></div></div>
-    <div class="wigs-row five">
+    <div class="wigs-row three">
       <div class="wig-card"><div class="wig-gallery wig-gallery-champ" style="background:#FFFBF6;" id="g-naomi"><div class="suede-over"></div>
     <div class="wig-slide active" data-view="Front"><img src="images/naomi-front.png" alt="Naomi Front" loading="lazy"></div>
     <div class="wig-slide" data-view="Side"><img src="images/naomi-side.png" alt="Naomi Side" loading="lazy"></div>
@@ -375,7 +375,7 @@ body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--dark);overfl
       <button class="dot active" onclick="go('naomi',0)"></button>
       <button class="dot" onclick="go('naomi',1)"></button>
       <button class="dot" onclick="go('naomi',2)"></button>
-    </div></div></div><div class="wig-info wig-info-champ">
+    </div></div><div class="wig-info wig-info-champ">
     <p class="wig-tag">Champagne Collection</p><h4 class="wig-name">Naomi</h4>
     <div class="wig-specs"><span class="spec-pill">26 inches</span><span class="spec-pill">13&#215;4 Frontal</span><span class="spec-pill">22&quot; Cap</span><span class="spec-pill">Human Hair</span></div>
     <div class="price-row"><div class="wig-price">$710</div><div class="price-note">*Insured shipping not included</div></div>
@@ -426,7 +426,7 @@ body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--dark);overfl
       <button class="dot active" onclick="go('heaven',0)"></button>
       <button class="dot" onclick="go('heaven',1)"></button>
       <button class="dot" onclick="go('heaven',2)"></button>
-    </div></div></div><div class="wig-info wig-info-champ">
+    </div></div><div class="wig-info wig-info-champ">
     <p class="wig-tag">Champagne Collection</p><h4 class="wig-name">Heaven</h4>
     <div class="wig-specs"><span class="spec-pill">26 inches</span><span class="spec-pill">13&#215;4 Frontal</span><span class="spec-pill">22&quot; Cap</span><span class="spec-pill">Human Hair</span></div>
     <div class="price-row"><div class="wig-price">$710</div><div class="price-note">*Insured shipping not included</div></div>
@@ -483,7 +483,7 @@ body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--dark);overfl
     <div class="gallery-dots" id="d-aria">
       <button class="dot active" onclick="go('aria',0)"></button>
       <button class="dot" onclick="go('aria',1)"></button>
-    </div></div></div></div><div class="wig-info">
+    </div></div><div class="wig-info">
     <p class="wig-tag">Espresso Collection</p><h4 class="wig-name">Aria</h4>
     <div class="wig-specs"><span class="spec-pill">26 inches</span><span class="spec-pill">13&#215;4 Frontal</span><span class="spec-pill">22&quot; Cap</span><span class="spec-pill">Human Hair</span></div>
     <div class="price-row"><div class="wig-price">$710</div><div class="price-note">*Insured shipping not included</div></div>
@@ -500,7 +500,7 @@ body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--dark);overfl
       <button class="dot active" onclick="go('blair',0)"></button>
       <button class="dot" onclick="go('blair',1)"></button>
       <button class="dot" onclick="go('blair',2)"></button>
-    </div></div></div></div><div class="wig-info">
+    </div></div><div class="wig-info">
     <p class="wig-tag">Espresso Collection</p><h4 class="wig-name">Blair</h4>
     <div class="wig-specs"><span class="spec-pill">26 inches</span><span class="spec-pill">13&#215;4 Frontal</span><span class="spec-pill">22&quot; Cap</span><span class="spec-pill">Human Hair</span></div>
     <div class="price-row"><div class="wig-price">$710</div><div class="price-note">*Insured shipping not included</div></div>
@@ -519,7 +519,7 @@ body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--dark);overfl
       <button class="dot" onclick="go('bianca',1)"></button>
       <button class="dot" onclick="go('bianca',2)"></button>
       <button class="dot" onclick="go('bianca',3)"></button>
-    </div></div></div><div class="wig-info">
+    </div></div><div class="wig-info">
     <p class="wig-tag">Espresso Collection</p><h4 class="wig-name">Bianca</h4>
     <div class="wig-specs"><span class="spec-pill">26 inches</span><span class="spec-pill">13&#215;4 Frontal</span><span class="spec-pill">22&quot; Cap</span><span class="spec-pill">Human Hair</span></div>
     <div class="price-row"><div class="wig-price">$710</div><div class="price-note">*Insured shipping not included</div></div>
@@ -568,7 +568,7 @@ body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--dark);overfl
   <!-- RUBY: Raven -->
   <div class="coll-group" id="collection-ruby">
     <div class="cg-header"><div class="cg-dot cgs-ruby"></div><h3 class="cg-title"><em>Ruby</em> Collection</h3><div class="cg-line"></div></div>
-    <div class="wigs-row two">
+    <div class="wigs-row three">
       <div class="wig-card"><div class="wig-gallery" style="background:#FFFBF6;" id="g-raven"><div class="suede-over"></div>
     <div class="wig-slide active" data-view="Front"><img src="images/raven-front.png" alt="Raven Front" loading="lazy"></div>
     <div class="wig-slide" data-view="Side"><img src="images/raven-side.png" alt="Raven Side" loading="lazy"></div>
@@ -580,7 +580,7 @@ body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--dark);overfl
       <button class="dot active" onclick="go('raven',0)"></button>
       <button class="dot" onclick="go('raven',1)"></button>
       <button class="dot" onclick="go('raven',2)"></button>
-    </div></div></div><div class="wig-info">
+    </div></div><div class="wig-info">
     <p class="wig-tag">Ruby Collection</p><h4 class="wig-name">Raven</h4>
     <div class="wig-specs"><span class="spec-pill">26 inches</span><span class="spec-pill">13&#215;4 Frontal</span><span class="spec-pill">22&quot; Cap</span><span class="spec-pill">Human Hair</span></div>
     <div class="price-row"><div class="wig-price">$710</div><div class="price-note">*Insured shipping not included</div></div>
@@ -611,7 +611,7 @@ body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--dark);overfl
   <!-- ROCKSTAR: Nova + Twilight -->
   <div class="coll-group" id="collection-rockstar">
     <div class="cg-header"><div class="cg-dot cgs-rock"></div><h3 class="cg-title"><em>Rockstar</em> Collection</h3><div class="cg-line"></div></div>
-    <div class="wigs-row two">
+    <div class="wigs-row three">
       <div class="wig-card"><div class="wig-gallery" style="background:#FFFBF6;" id="g-nova"><div class="suede-over"></div>
     <div class="wig-slide active" data-view="Front"><img src="images/nova-front.png" alt="Nova Front" loading="lazy"></div>
     <div class="wig-slide" data-view="Side"><img src="images/nova-side.png" alt="Nova Side" loading="lazy"></div>
@@ -623,7 +623,7 @@ body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--dark);overfl
       <button class="dot active" onclick="go('nova',0)"></button>
       <button class="dot" onclick="go('nova',1)"></button>
       <button class="dot" onclick="go('nova',2)"></button>
-    </div></div></div><div class="wig-info">
+    </div></div><div class="wig-info">
     <p class="wig-tag">Rockstar Collection</p><h4 class="wig-name">Nova</h4>
     <div class="wig-specs"><span class="spec-pill">26 inches</span><span class="spec-pill">13&#215;4 Frontal</span><span class="spec-pill">22&quot; Cap</span><span class="spec-pill">Human Hair</span></div>
     <div class="price-row"><div class="wig-price">$810</div><div class="price-note">*Insured shipping not included</div></div>
@@ -642,7 +642,7 @@ body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--dark);overfl
       <button class="dot" onclick="go('twilight',1)"></button>
       <button class="dot" onclick="go('twilight',2)"></button>
       <button class="dot" onclick="go('twilight',3)"></button>
-    </div></div></div><div class="wig-info">
+    </div></div><div class="wig-info">
     <p class="wig-tag">Rockstar Collection</p><h4 class="wig-name">Twilight</h4>
     <div class="wig-specs"><span class="spec-pill">26 inches</span><span class="spec-pill">13&#215;4 Frontal</span><span class="spec-pill">22&quot; Cap</span><span class="spec-pill">Human Hair</span></div>
     <div class="price-row"><div class="wig-price">$810</div><div class="price-note">*Insured shipping not included</div></div>
