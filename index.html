@@ -388,8 +388,7 @@ body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--dark);overfl
     <div class="wig-slide active" data-view="Front"><img src="images/mia-front.png" alt="Mia Front" loading="lazy"></div>
     <div class="wig-slide" data-view="Close Up"><img src="images/mia-closeup.png" alt="Mia Close Up" loading="lazy"></div>
     <div class="wig-slide" data-view="Back"><img src="images/mia-back.png" alt="Mia Back" loading="lazy"></div>
-    <div class="wig-slide" data-view="Style 1"><img src="images/mia-style1.png" alt="Mia Style 1" loading="lazy"></div>
-    <div class="wig-slide" data-view="Style 2"><img src="images/mia-style2.png" alt="Mia Style 2" loading="lazy"></div>
+    <div class="wig-slide" data-view="Two Styles"><img src="images/mia-two-styles.png" alt="Mia Two Styles" loading="lazy"></div>
     <div class="wig-slide" data-view="Worn"><img src="images/mia-worn.png" alt="Mia Worn" loading="lazy"></div>
     <div class="view-label" id="vl-mia">Front</div>
     <button class="g-arrow g-prev" onclick="slide('mia',-1)">&#8592;</button>
@@ -400,7 +399,6 @@ body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--dark);overfl
       <button class="dot" onclick="go('mia',2)"></button>
       <button class="dot" onclick="go('mia',3)"></button>
       <button class="dot" onclick="go('mia',4)"></button>
-      <button class="dot" onclick="go('mia',5)"></button>
     </div></div><div class="wig-info wig-info-champ">
     <p class="wig-tag">Champagne Collection</p><h4 class="wig-name">Mia</h4>
     <div class="wig-specs"><span class="spec-pill">26 inches</span><span class="spec-pill">13&#215;4 Frontal</span><span class="spec-pill">22&quot; Cap</span><span class="spec-pill">Human Hair</span></div>
@@ -815,7 +813,7 @@ const slideCount = {};
 ['victoria', 'heaven', 'raven', 'nova', 'blair'].forEach(id => slideCount[id] = 4);
 slideCount['naomi'] = 4;
 slideCount['aria'] = 2;
-slideCount['mia'] = 6;
+slideCount['mia'] = 5;
 slideCount['bianca'] = 4;
 ['sabrina'].forEach(id => slideCount[id] = 3);
 slideCount['twilight'] = 4;
