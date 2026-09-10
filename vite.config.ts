@@ -43,6 +43,7 @@ export default defineConfig({
       input: {
         index: fileURLToPath(new URL("./github-index.html", import.meta.url)),
         contact: fileURLToPath(new URL("./github-contact.html", import.meta.url)),
+        photoPrep: fileURLToPath(new URL("./photo-prep.html", import.meta.url)),
       },
     },
   },

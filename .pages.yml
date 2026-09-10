@@ -74,7 +74,7 @@ content:
           collapsible:
             collapsed: true
             summary: "{label}"
-        description: First photo is the cover. Reorder these items to change the gallery. Remove a photo from this list to remove it from this wig.
+        description: First photo is the cover. For large phone photos, prepare them first at https://wigsbymia.com/photo-prep.html. Reorder these items to change the gallery. Remove a photo from this list to remove it from this wig.
         fields:
           - name: src
             label: Photo
