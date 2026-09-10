@@ -554,4 +554,4 @@ body{background:#090909;color:var(--cream);}
 @media(max-width:600px){.policy-notice{flex-direction:column;gap:6px;width:100%;margin:20px auto 26px;padding:14px 12px;letter-spacing:.11em;}.policy-section{padding:56px 20px;}.policy-card{padding:26px 22px;}.policy-card p{font-size:18px;}.policy-rule{margin-bottom:28px;}}
 
 .wig-description{font-size:1rem;line-height:1.6;white-space:pre-line;margin:12px 0;}
-.sold-out-label{opacity:.65;cursor:default;}
+.sold-label{opacity:.65;cursor:default;}

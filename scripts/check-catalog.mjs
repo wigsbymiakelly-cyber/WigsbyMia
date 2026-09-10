@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-const statuses = new Set(['Available','Sold Out','Coming Soon','Hidden']);
+const statuses = new Set(['Available','Sold','Coming Soon','Hidden']);
 const errors=[];
 for (const file of fs.readdirSync('content/wigs').filter(x=>x.endsWith('.json'))) {
  const w=JSON.parse(fs.readFileSync(`content/wigs/${file}`));

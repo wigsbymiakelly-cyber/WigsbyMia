@@ -26,8 +26,8 @@ content:
         type: select
         required: true
         options:
-          values: [Available, Sold Out, Coming Soon, Hidden]
-        description: Hidden removes the wig from the storefront. Sold Out keeps it visible without an inquiry button.
+          values: [Available, Sold, Coming Soon, Hidden]
+        description: Hidden removes the wig from the storefront. Sold keeps it visible without an inquiry button.
       - name: order
         label: Display order
         type: number

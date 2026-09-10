@@ -71,8 +71,8 @@ export default function WigCard({ wig }: { wig: Wig }) {
           <div className="wig-price">{wig.originalPrice && <del>{wig.originalPrice}</del>}{wig.price || (wig.status === "Coming Soon" ? "Coming Soon" : "Price on inquiry")}</div>
           {wig.price && <div className="price-note">*Insured shipping not included</div>}
         </div>
-        {wig.status === "Sold Out" ? (
-          <span className="shop-btn sold-out-label">Sold Out</span>
+        {wig.status === "Sold" ? (
+          <span className="shop-btn sold-label">Sold</span>
         ) : (
           <a href={inquiryHref} className="shop-btn">Inquire About This Wig</a>
         )}

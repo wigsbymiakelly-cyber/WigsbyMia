@@ -6,7 +6,7 @@ export type Wig = {
   price?: string;
   originalPrice?: string;
   description?: string;
-  status: 'Available' | 'Sold Out' | 'Coming Soon' | 'Hidden';
+  status: 'Available' | 'Sold' | 'Coming Soon' | 'Hidden';
   order?: number;
   lace?: string;
   length?: string;
