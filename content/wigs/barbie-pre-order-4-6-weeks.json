@@ -1,0 +1,32 @@
+{
+  "name": "Barbie ( pre order 4-6 weeks ",
+  "status": "Available",
+  "price": "810",
+  "description": " 🎀 Katelyn Fager🎀 Checkout \n\nMade with 100% Brazilian Remy human hair,  this wig can be curled, straightened, and styled just like natural hair. Because every piece is professionally colored and prepared, slight variations make each wig beautifully unique.\n\nPre-Order Details: Your wig is made to order according to your selected cap size. Please allow up to 6 weeks for your custom pre-order to be completed. Human hair should be treated just like your natural hair, and because shipping can affect the finished style, your wig may need to be brushed, curled, or restyled to your preference \n\nAll Sales are final \n\nInquire \n",
+  "lace": "13*4",
+  "length": "26inches ",
+  "density": "200%",
+  "capSize": "21.5/22/22.5",
+  "features": [
+    "Cap style 1 or 2",
+    "Elastic straps"
+  ],
+  "images": [
+    {
+      "src": "/images/products/mtya4mow-sk6dlloi.jpeg",
+      "label": "Front"
+    },
+    {
+      "src": "/images/products/mtya6ncw-zcmxjbjq.jpeg",
+      "label": "Side"
+    },
+    {
+      "src": "/images/products/mtya7537-hpxzkmzm.jpeg",
+      "label": "Back"
+    },
+    {
+      "src": "/images/products/mtya7u9l-3dag4xrg.jpeg",
+      "label": "Front"
+    }
+  ]
+}
