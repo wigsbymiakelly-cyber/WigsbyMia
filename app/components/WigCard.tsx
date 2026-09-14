@@ -9,10 +9,11 @@ export default function WigCard({ wig }: { wig: Wig }) {
   const touchStart = useRef(0);
   const images = wig.images ?? [];
   const specs = [wig.lace, wig.length, wig.density, wig.capSize, ...(wig.features ?? [])].filter(Boolean);
-  const inquiryHref = `mailto:wigsbymiakelly@gmail.com?subject=${encodeURIComponent(
-    `Wig Inquiry - ${wig.name}`,
-  )}&body=${encodeURIComponent(
-    `Hi Mia,\n\nI'm interested in the ${wig.name} wig. Could you please let me know whether it's available and what the next steps are?\n\nThank you!`,
+  // iOS Messages uses &body; other SMS handlers use ?body.
+  const isAppleDevice = typeof navigator !== "undefined" &&
+    (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent));
+  const inquiryHref = `sms:+16166341357${isAppleDevice ? "&" : "?"}body=${encodeURIComponent(
+    `Hi Mia! I’m interested in the ${wig.name} I saw on your website. Is it currently available?`,
   )}`;
   const move = (step: number) => {
     if (images.length) setActive((active + step + images.length) % images.length);
