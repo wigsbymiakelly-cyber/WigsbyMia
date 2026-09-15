@@ -1,0 +1,32 @@
+{
+  "name": "Harper",
+  "status": "Available",
+  "price": "$650",
+  "description": "100% Brazillian Remy Hair\n26” Length\n13×6 Lace\n180% Density\n22.5” Cap\nAdjustable Elastic Straps\nCOLOR\nNatural Level 7/8 Root Mix\nLevel 7/9 Highlights + Lowlights\n🎨 Custom Colored by Mia Kelly",
+  "lace": "13*6",
+  "length": "26",
+  "density": "180",
+  "capSize": "22.5",
+  "features": [
+    "3 combs",
+    "elastic straps "
+  ],
+  "images": [
+    {
+      "src": "/images/products/mu3aqgqf-nvms7lyz.jpeg",
+      "label": "Front"
+    },
+    {
+      "src": "/images/products/mu3aqwjx-wmsxp35s.jpeg",
+      "label": "Front"
+    },
+    {
+      "src": "/images/products/mu3arllg-0b4uevlz.jpeg",
+      "label": "Side"
+    },
+    {},
+    {},
+    {},
+    {}
+  ]
+}
