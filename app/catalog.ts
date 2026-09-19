@@ -17,6 +17,6 @@ export type Wig = {
 };
 const entries = import.meta.glob('../content/wigs/*.json', {eager: true, import: 'default'}) as Record<string, Omit<Wig, 'id'>>;
 export const wigs: Wig[] = Object.entries(entries)
-  .map(([path, wig]) => ({...wig, id: path.split('/').pop()!.replace(/\.json$/, '')}))
+  .map(([path, wig]) => ({...wig, images: wig.images?.filter(image => Object.keys(image).length > 0), id: path.split('/').pop()!.replace(/\.json$/, '')}))
   .filter(wig => wig.status !== 'Hidden')
   .sort((a,b) => (a.order ?? 999) - (b.order ?? 999) || a.name.localeCompare(b.name));

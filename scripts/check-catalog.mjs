@@ -7,6 +7,8 @@ for (const file of fs.readdirSync('content/wigs').filter(x=>x.endsWith('.json'))
  if(!w.name?.trim() || !statuses.has(w.status)) errors.push(`${file}: name or availability missing`);
  if(w.order != null && (typeof w.order !== 'number' || !Number.isFinite(w.order))) errors.push(`${file}: invalid display order`);
  for(const image of w.images ?? []) {
+  // Pages CMS may save unused photo slots as empty objects.
+  if (image && Object.keys(image).length === 0) continue;
   if(!image.src?.startsWith('/images/') || !fs.existsSync(path.join('public',image.src))) errors.push(`${file}: missing photo ${image.src}`);
   if(!image.label?.trim()) errors.push(`${file}: photo description missing`);
  }
