@@ -1,0 +1,32 @@
+{
+  "name": "Rebecca ",
+  "status": "Available",
+  "price": "$850",
+  "description": "\n100% Brazilian Remy Human Hair\n\nProfessionally custom colored by Mia Kelly in a Level 7 base with 7-8 subtle highlights, creating a rich, dimensional blend with beautifully placed highlights and natural depth for a soft, dimensional finish. \n\nBecause this is 100% human hair, treat and style her just like your natural hair. She arrives professionally colored and styled, but shipping may affect the finished look, so you may want to restyle her to your preference after unboxing.\n\nReady to Ship\n\nPlease Note: All sales are final.\n",
+  "lace": "13x4",
+  "length": "26 Inch",
+  "density": "200%",
+  "capSize": "21.5 Inch",
+  "features": [
+    "4 Combs, Drawstring, Band, Lace Mesh"
+  ],
+  "images": [
+    {
+      "src": "/images/products/mug3r61q-62s4rne2.jpeg",
+      "label": "Front"
+    },
+    {
+      "src": "/images/products/mug3ydun-b5pyd6f7.png",
+      "label": "Back"
+    },
+    {
+      "src": "/images/products/mug3zj51-w94vjbb5.jpeg",
+      "label": "Side"
+    },
+    {},
+    {
+      "src": "/images/products/mug40gat-jo8f521t.jpeg",
+      "label": "Cap"
+    }
+  ]
+}
