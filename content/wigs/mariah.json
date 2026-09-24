@@ -1,0 +1,30 @@
+{
+  "name": "Mariah",
+  "status": "Available",
+  "price": "$850",
+  "description": "100% Brazilian Remy Human Hair\n\nProfessionally custom colored by Mia Kelly in a subtle chocolate root, with level 7 base and level 8 highlight for a  J-Lo Mix\n\nBecause this is 100% human hair, treat and style her just like your natural hair. She arrives professionally colored and styled, but shipping may affect the finished look, so you may want to restyle her to your preference after unboxing.\n\nReady to Ship\n\nPlease Note: All sales are final. \n\nText (616) 634-357\n",
+  "lace": "13x4",
+  "length": "26 Inches",
+  "density": "200%",
+  "capSize": "21.5 Inch",
+  "images": [
+    {
+      "src": "/images/products/mug6cslg-jnuwwu5h.png",
+      "label": "Front"
+    },
+    {
+      "src": "/images/products/mug6fowi-wt5cvixu.jpeg",
+      "label": "Back"
+    },
+    {
+      "src": "/images/products/mug6jzrw-7gokdtin.jpeg",
+      "label": "Side"
+    },
+    {
+      "src": "/images/products/mug6vk54-nsulunim.jpeg",
+      "label": "Cap"
+    },
+    {},
+    {}
+  ]
+}
