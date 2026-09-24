@@ -2,12 +2,34 @@
   "name": "Marley",
   "status": "Available",
   "price": "$850",
-  "description": "100% Brazilian Remy Human Hair\n\nProfessionally custom colored by Mia Kelly in a platinum blonde with Level 10 highlights for a bright, dimensional finish.\n\nBecause this is 100% human hair, treat and style her just like your natural hair. She arrives professionally colored and styled, but shipping may affect the finished look, so you may want to restyle her to your preference after unboxing.\n\nReady to Ship\n\nPlease Note: All sales are final.\n",
+  "description": "100% Brazilian Remy Human Hair\n\nProfessionally custom colored by Mia Kelly in a platinum blonde with Level 10 highlights for a bright, dimensional finish.\n\nBecause this is 100% human hair, treat and style her just like your natural hair. She arrives professionally colored and styled, but shipping may affect the finished look, so you may want to restyle her to your preference after unboxing.\n\nReady to Ship\n\nPlease Note: All sales are final.\n\nText (616) 634-1357\n",
   "lace": "13x4",
   "length": "26 Inch",
   "density": "200%",
   "capSize": "21.5 Inch",
   "features": [
     "4 Combs, Drawstring, Removable Band, Glueless"
+  ],
+  "images": [
+    {
+      "src": "/images/products/mug502nl-l35nf4lo.png",
+      "label": "Front"
+    },
+    {
+      "src": "/images/products/mug50s86-g3otxdbz.png",
+      "label": "Back"
+    },
+    {
+      "src": "/images/products/mug51rrl-idtl5420.jpeg",
+      "label": "Side"
+    },
+    {
+      "src": "/images/products/mug53kq4-cah6ds3y.jpeg",
+      "label": "Cap"
+    },
+    {},
+    {},
+    {},
+    {}
   ]
 }
