@@ -12,7 +12,8 @@
     "Adjustable Drawstring",
     "Added Band",
     "3 Combs",
-    "Cap-Type 2"
+    "Cap-Type 2",
+    "Glueless "
   ],
   "images": [
     {
@@ -30,6 +31,10 @@
     {
       "src": "/images/products/champagne-straight-24-back-alt.jpeg",
       "label": "Back Detail"
+    },
+    {
+      "src": "/images/products/muhalz27-68c6mvej.jpeg",
+      "label": "Inside "
     }
   ]
 }
