@@ -11,7 +11,8 @@
   "features": [
     "Added Band",
     "3 Combs",
-    "Cap-Type 2"
+    "Cap-Type 2",
+    "Glueless "
   ],
   "images": [
     {
@@ -21,6 +22,10 @@
     {
       "src": "/images/products/sandy-blonde-24-back-profile.jpeg",
       "label": "Front"
+    },
+    {
+      "src": "/images/products/muhapv4k-aq5yspqp.jpeg",
+      "label": "Inside "
     }
   ]
 }
