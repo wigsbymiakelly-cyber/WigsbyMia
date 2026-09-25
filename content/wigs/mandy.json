@@ -12,7 +12,8 @@
     "Adjustable Drawstring",
     "Added Band",
     "3 Combs",
-    "Cap-Type 2"
+    "Cap-Type 2",
+    "Glueless "
   ],
   "images": [
     {
@@ -30,6 +31,10 @@
     {
       "src": "/images/products/dark-rooted-golden-blonde-24-back.jpeg",
       "label": "Back"
+    },
+    {
+      "src": "/images/products/muhasigm-0l0gwjtc.jpeg",
+      "label": "Inside "
     }
   ]
 }
