@@ -12,7 +12,8 @@
     "Adjustable Drawstring",
     "Added Band",
     "3 Combs",
-    "Cap-Type 2"
+    "Cap-Type 2",
+    "Gluless"
   ],
   "images": [
     {
@@ -22,6 +23,10 @@
     {
       "src": "/images/products/smoky-brunette-24-back.jpeg",
       "label": "Back"
+    },
+    {
+      "src": "/images/products/muhaosog-1dqctq5d.jpeg",
+      "label": "Inside "
     }
   ]
 }
