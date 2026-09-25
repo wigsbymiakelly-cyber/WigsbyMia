@@ -12,7 +12,8 @@
     "Adjustable Drawstring",
     "Added Band",
     "3 Combs",
-    "Cap-Type 2"
+    "Cap-Type 2",
+    "Glueless "
   ],
   "images": [
     {
@@ -26,6 +27,10 @@
     {
       "src": "/images/products/Clair-Side.jpeg",
       "label": "Side"
+    },
+    {
+      "src": "/images/products/muhaujci-dnt35mas.jpeg",
+      "label": "Inside "
     }
   ]
 }
