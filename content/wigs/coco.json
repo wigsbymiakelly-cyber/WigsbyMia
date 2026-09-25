@@ -1,0 +1,31 @@
+{
+  "name": "Coco",
+  "status": "Available",
+  "price": "$850",
+  "description": "100% Brazilian Remy Human Hair\n\nProfessionally custom colored by Mia Kelly with a level 6,7, and 8, J-Lo Blend. J-Lo loves to wear this color blend. \n\nBecause this is 100% human hair, you can treat and style her just like your natural hair. She arrives professionally colored and styled; however, shipping may affect the finished look, so light restyling may be desired after unboxing to achieve your preferred finish.\n\nREADY TO SHIP\n\nPlease Note: All sales are final.\n\nText (616) 634-1357",
+  "lace": "13x4",
+  "length": "26 Inches",
+  "density": "200%",
+  "capSize": "21.5 Inch",
+  "features": [
+    "4 Combs, Drawstring, Removable Band, Glueless"
+  ],
+  "images": [
+    {
+      "src": "/images/products/mug904k9-5ab5cw9b.jpeg",
+      "label": "Front"
+    },
+    {
+      "src": "/images/products/mug90q8h-q0d6d369.jpeg",
+      "label": "Back"
+    },
+    {
+      "src": "/images/products/mug916ny-yeyvzpb3.jpeg",
+      "label": "Side"
+    },
+    {
+      "src": "/images/products/mug91h50-hjhit89y.jpeg",
+      "label": "Cap"
+    }
+  ]
+}
