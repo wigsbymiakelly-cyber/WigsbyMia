@@ -105,6 +105,7 @@ export default function HomePage() {
       <Nav />
       <main>
         <section className="hero" id="hero">
+          <p className="monthly-arrivals">NEW CUSTOM COLORED WIGS ADDED EVERY MONTH</p>
           <img src="/images/hero-v2.png" className="hero-img" alt="Mia Kelly wearing a highlighted luxury wig" />
           <div className="hero-overlay" />
           <div className="hero-content">
