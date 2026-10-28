@@ -13,12 +13,14 @@
     "Added Band",
     "3 Combs",
     "Cap-Type 2",
-    "Glueless "
+    "Glueless ",
+    "HD lace",
+    "pre cut "
   ],
   "images": [
     {
       "src": "/images/products/dark-rooted-golden-blonde-24-front.jpeg",
-      "label": "Front"
+      "label": "Front ( Natural lighting"
     },
     {
       "src": "/images/products/dark-rooted-golden-blonde-24-full.jpeg",
@@ -26,15 +28,19 @@
     },
     {
       "src": "/images/products/dark-rooted-golden-blonde-24-side.jpeg",
-      "label": "Side"
+      "label": "Side( Natural Lighting"
     },
     {
       "src": "/images/products/dark-rooted-golden-blonde-24-back.jpeg",
-      "label": "Back"
+      "label": "Back( Natural Lighting"
     },
     {
       "src": "/images/products/muhbw8dk-2nm62ukc.png",
       "label": "Inside "
+    },
+    {
+      "src": "/images/products/mvsgecba-yzwj0sz4.png",
+      "label": "Wear & GO"
     }
   ]
 }
