@@ -7,34 +7,32 @@
   "lace": "13×4 Frontal",
   "length": "24 Inches",
   "density": "180% Density",
-  "capSize": "21.5-inch Cap",
+  "capSize": "21.5-inch Cap( sizes down to 19 ",
   "features": [
     "Adjustable Drawstring",
     "Added Band",
     "3 Combs",
     "Cap-Type 2",
-    "Glueless"
+    "Glueless",
+    "HD LACE ",
+    "pre cut "
   ],
   "images": [
     {
       "src": "/images/products/ash-blonde-money-piece-24-front.jpeg",
-      "label": "Front"
+      "label": "Front ( Natural Lighting"
     },
     {
       "src": "/images/products/ash-blonde-money-piece-24-front-alt.jpeg",
-      "label": "Front Detail"
+      "label": "Front Detail( Natural Lighting"
     },
     {
       "src": "/images/products/ash-blonde-money-piece-24-side.jpeg",
-      "label": "Styled View"
-    },
-    {
-      "src": "/images/products/ash-blonde-money-piece-24-side-alt.jpeg",
-      "label": "Alternate View"
+      "label": "Front( Natural Lighting"
     },
     {
       "src": "/images/products/beige-blonde-24-side.jpeg",
-      "label": "Side"
+      "label": "Side ( Natural Lighting"
     },
     {
       "src": "/images/products/beige-blonde-24-back.jpeg",
@@ -42,11 +40,16 @@
     },
     {
       "src": "/images/products/beige-blonde-24-back-alt.jpeg",
-      "label": "Back Detail"
+      "label": "Back ( Natural Lighting"
     },
     {
       "src": "/images/products/muhbstb7-eqtan1g4.png",
       "label": "Inside"
-    }
+    },
+    {
+      "src": "/images/products/mvsggt4s-c4g2jvi5.png",
+      "label": "Wear & Go"
+    },
+    {}
   ]
 }
