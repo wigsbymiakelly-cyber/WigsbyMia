@@ -9,5 +9,35 @@
   "capSize": "22 Inch Cap (Sizes down to 20 inches)",
   "features": [
     "Adjustable Drawstring, Silicone Padding, 4 Combs, Removable Band, HD Diamond Lace, Glueless Wear & Go"
+  ],
+  "images": [
+    {
+      "src": "/images/products/mvszwtht-7yklnspx.jpg",
+      "label": "Front (Natural Lighting)"
+    },
+    {
+      "src": "/images/products/mvszxtr6-orjnnb9d.jpg",
+      "label": "Front ( Natural Lighting "
+    },
+    {
+      "src": "/images/products/mvszycyz-cysdp7be.jpg",
+      "label": "Front (Natural Lighting"
+    },
+    {
+      "src": "/images/products/mvszz7w1-f90f5eie.jpg",
+      "label": "Side( Natural Lighting "
+    },
+    {
+      "src": "/images/products/mvt006rf-88boti2w.jpg",
+      "label": "Back( Natural Lighting"
+    },
+    {
+      "src": "/images/products/mvt00kaf-0h7x5fpa.jpg",
+      "label": "Cap"
+    },
+    {
+      "src": "/images/products/mvt00y1c-eviqik9f.jpg",
+      "label": "Wear & Go"
+    }
   ]
 }
