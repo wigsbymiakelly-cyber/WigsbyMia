@@ -2,12 +2,43 @@
   "name": "Belle",
   "status": "Available",
   "price": "$850",
-  "description": "Smoky Ash Brown with Icy Blonde Money Piece | Dimensional Balayage\n\n100% Brazilian Virgin Remy Human Hair, professionally custom-colored by Mia Kelly. Features a beautiful blend of rich smoky ash brown tones with soft, cool-toned beige and taupe highlights throughout. A bold, icy blonde face-framing money piece creates stunning contrast and brightness around the face. Finished with a seamless dimensional color melt, soft shadowed roots, and long, flowing waves for a sophisticated, luxurious look.\n\nPhotos are taken in natural lighting to showcase the true color and dimension of the hair.\n\nMia's professional products of choice include Schwarzkopf IGORA ROYAL hair color, Redken toners, and Kenra Professional haircare and styling products.\n\nEvery wig is personally inspected by Mia Kelly throughout the coloring, washing, and styling process to ensure professional quality.\n\nBecause this is 100% human hair, care for and style her just like your natural hair. She arrives professionally colored and styled, but shipping may affect the finished look. Light restyling may be needed after unboxing.\n\nWashing and care instructions are included with purchase.\n\nStarting at $850+\n\nShop at Wigsbymia.com\n\nReady to Ship | One of a Kind | Only One Available\n\nPlease Note: All Sales Are Final.",
+  "description": "Light Caramel Brown with Level 8 Blonde Highlights | Money Piece\n\n100% Brazilian Virgin Remy Human Hair, professionally custom-colored by Mia Kelly. Features a beautiful blend of soft light caramel brown tones with dimensional Level 8 blonde highlights throughout. A rich Level 6 shadowed root creates natural depth and a seamless transition into the lighter caramel base. Bright, face-framing blonde highlights add contrast and dimension around the face. Finished with a beautifully blended color melt and long, flowing waves for a soft, sophisticated, luxurious look.\n\nPhotos are taken in natural lighting to showcase the true color and dimension of the hair.\n\nMia's professional products of choice include Schwarzkopf IGORA ROYAL hair color, Redken toners, and Kenra Professional haircare and styling products.\n\nEvery wig is personally inspected by Mia Kelly throughout the coloring, washing, and styling process to ensure professional quality.\n\nBecause this is 100% human hair, care for and style her just like your natural hair. She arrives professionally colored and styled, but shipping may affect the finished look. Light restyling may be needed after unboxing.\n\nWashing and care instructions are included with purchase.\n\nAll sales are final.\n",
   "lace": "13x4",
   "length": "26 Inches",
   "density": "200%",
   "capSize": "22 Inches (Sizes down to 20)",
+  "features": [
+    "ADJUSTABLE DRAWSTRING, SILICONE PADDING, 4 COMBS, REMOVABLE BAND, HD DIAMOND LACE, GLUELESS WEAR & GO"
+  ],
   "images": [
-    {}
+    {},
+    {
+      "src": "/images/products/mvyghrxn-eqshxuw4.jpg",
+      "label": "Front (Natural Lighting)"
+    },
+    {
+      "src": "/images/products/mvygjerv-athuri5p.jpg",
+      "label": "Front (Natural Lighting)"
+    },
+    {
+      "src": "/images/products/mvygncxs-jg5g389z.jpg",
+      "label": "Front (Natural Lighting)"
+    },
+    {
+      "src": "/images/products/mvygobi3-4fzrf0ac.jpg",
+      "label": "Top (Natural Lighting)"
+    },
+    {
+      "src": "/images/products/mvygpkxx-s9mdxe1f.jpg",
+      "label": "Back (Natural Lighting)"
+    },
+    {
+      "src": "/images/products/mvygr1w8-eke7s62u.jpg",
+      "label": "Back (Natural Lighting)"
+    },
+    {
+      "src": "/images/products/mvyh0x24-upm273ew.jpg",
+      "label": "Cap "
+    }
   ]
 }
