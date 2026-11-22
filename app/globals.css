@@ -420,7 +420,7 @@ body{background:#090909;color:var(--cream);}
 .cap-feature-title{background:var(--champagne);padding:10px 20px;display:flex;align-items:center;gap:10px;}
 .cap-feature-title span{font-size:14px;color:var(--dark);font-family:'Cormorant Garamond',serif;font-style:italic;letter-spacing:.03em;}
 .cap-feature-title strong{font-size:12px;color:var(--espresso);letter-spacing:.1em;text-transform:uppercase;font-weight:400;}
-.cap-feature img{width:100%;display:block;aspect-ratio:1/1;object-fit:cover;object-position:center top;}
+.cap-feature img{width:100%;height:auto;display:block;}
 .placeholder-card{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;background:#2a1f24;color:var(--gold);}
 .placeholder-card span{font-size:32px;opacity:.65;}
 .placeholder-card p{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--cream);opacity:.75;}

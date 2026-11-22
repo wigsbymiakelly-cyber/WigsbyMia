@@ -232,7 +232,7 @@ export default function HomePage() {
               <span>Mia Kelly&apos;s Signature</span>
               <strong>Fitted Elastic Caps</strong>
             </div>
-            <img src="/images/mia-signature-caps-dark.jpeg" alt="Mia Signature and Diamond wig cap construction styles" />
+            <img src="/images/mia-signature-cap-diagram.png" alt="Mia’s Signature Cap: HD diamond lace, four combs, bleached knots, removable band, silicone nape padding, and an adjustable drawstring" />
           </div>
           <div className="coll-group last-group">
             <div className="wigs-row product-grid">{wigs.map((wig) => <WigCard wig={wig} key={wig.id} />)}</div>
